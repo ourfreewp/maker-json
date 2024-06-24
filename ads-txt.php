@@ -3,7 +3,7 @@
  * Plugin Name:       Ads.txt Manager
  * Plugin URI:        https://github.com/10up/ads-txt
  * Description:       Create, manage, and validate your Ads.txt from within WordPress, just like any other content asset. Requires PHP 7.4+ and WordPress 5.7+.
- * Version:           1.4.3
+ * Version:           1.4.4
  * Requires at least: 6.3
  * Requires PHP:      7.4
  * Author:            10up
@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-define( 'ADS_TXT_MANAGER_VERSION', '1.4.3' );
+define( 'ADS_TXT_MANAGER_VERSION', '1.4.4' );
 define( 'ADS_TXT_MANAGE_CAPABILITY', 'edit_ads_txt' );
 define( 'ADS_TXT_MANAGER_POST_OPTION', 'adstxt_post' );
 define( 'APP_ADS_TXT_MANAGER_POST_OPTION', 'app_adstxt_post' );

@@ -2,7 +2,7 @@
 Contributors:      10up, helen, adamsilverstein, jakemgold, peterwilsoncc, jeffpaul
 Tags:              ads.txt, app-ads.txt, ads, ad manager, advertising
 Tested up to:      6.5
-Stable tag:        1.4.3
+Stable tag:        1.4.4
 License:           GPL-2.0-or-later
 License URI:       https://spdx.org/licenses/GPL-2.0-or-later.html
 
