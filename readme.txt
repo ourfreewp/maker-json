@@ -50,6 +50,12 @@ You will need to rename or remove the existing (app-)ads.txt file (keeping a cop
 
 == Changelog ==
 
+= 1.4.4 - 2024-06-26 =
+* **Added:** Placeholder record can be added with no authorized sellers or buyers (props [@ankitrox](https://github.com/ankitrox), [@peterwilsoncc](https://github.com/peterwilsoncc) via [#129](https://github.com/10up/ads-txt/pull/129)).
+* **Changed:** Bump WordPress "tested up to" version 6.5 (props [@zamanq](https://github.com/zamanq), [@QAharshalkadu](https://github.com/QAharshalkadu), [@jeffpaul](https://github.com/jeffpaul), [@qasumitbagthariya](https://github.com/qasumitbagthariya), [@sudip-md](https://github.com/sudip-md) via [#152](https://github.com/10up/ads-txt/pull/152), [#156](https://github.com/10up/ads-txt/pull/156), [#162](https://github.com/10up/ads-txt/issues/162)).
+* **Fixed:** Better error handling for environments that don't match our minimum PHP version (props [@dkotter](https://github.com/dkotter), [@rahulsprajapati](https://github.com/rahulsprajapati), [@peterwilsoncc](https://github.com/peterwilsoncc), [@frankiebordone](https://github.com/frankiebordone), [@vikrampm1](https://github.com/vikrampm1) via [#149](https://github.com/10up/ads-txt/pull/149)).
+* **Security:** Bump `semver` from 7.3.5 to 7.5.3 (props [@dependabot](https://github.com/apps/dependabot), [@peterwilsoncc](https://github.com/peterwilsoncc) via [#147](https://github.com/10up/ads-txt/pull/147)).
+
 = 1.4.3 - 2023-06-21 =
 * **Added:** `ads.txt` file exists check from the backend (props [@sksaju](https://github.com/sksaju), [@peterwilsoncc](https://github.com/peterwilsoncc), [@mmcachran](https://github.com/mmcachran), [@dinhtungdu](https://github.com/dinhtungdu), [@helen](https://github.com/helen), [@jeffpaul](https://github.com/jeffpaul) via [#131](https://github.com/10up/ads-txt/pull/131)).
 * **Added:** Check for and delete orphan `(app-)ads.txt` posts not referenced in the option (props [@sksaju](https://github.com/sksaju), [@peterwilsoncc](https://github.com/peterwilsoncc) via [#138](https://github.com/10up/ads-txt/pull/138)).
