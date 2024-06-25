@@ -6,11 +6,11 @@ Stable tag:        1.4.4
 License:           GPL-2.0-or-later
 License URI:       https://spdx.org/licenses/GPL-2.0-or-later.html
 
-Create, manage, and validate your ads.txt and app-ads.txt from within WordPress, just like any other content asset. Requires PHP 7.4+ and WordPress 5.7+.
+Create, manage, and validate your ads.txt and app-ads.txt from within WordPress, like any other content asset.
 
 == Description ==
 
-Create, manage, and validate your ads.txt and app-ads.txt from within WordPress, just like any other content asset. Requires PHP 7.4+ and WordPress 5.7+.
+Create, manage, and validate your ads.txt and app-ads.txt from within WordPress, like any other content asset. Requires PHP 7.4+ and WordPress 5.7+.
 
 === What is ads.txt? ===
 
