@@ -1,21 +1,16 @@
 === Ads.txt Manager ===
 Contributors:      10up, helen, adamsilverstein, jakemgold, peterwilsoncc, jeffpaul
-Author URI:        https://10up.com
-Plugin URI:        https://github.com/10up/ads-txt
-Tags:              ads.txt, app-ads.txt, ads, ad manager, advertising, publishing, publishers
-Requires at least: 5.7
-Tested up to:      6.4
-Requires PHP:      7.4
-Stable tag:        1.4.3
-License:           GPLv2 or later
-License URI:       https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
-Text Domain:       ads-txt
+Tags:              ads.txt, app-ads.txt, ads, ad manager, advertising
+Tested up to:      6.5
+Stable tag:        1.4.4
+License:           GPL-2.0-or-later
+License URI:       https://spdx.org/licenses/GPL-2.0-or-later.html
 
-Create, manage, and validate your ads.txt and app-ads.txt from within WordPress, just like any other content asset. Requires PHP 7.4+ and WordPress 5.7+.
+Create, manage, and validate your ads.txt and app-ads.txt from within WordPress, like any other content asset.
 
 == Description ==
 
-Create, manage, and validate your ads.txt and app-ads.txt from within WordPress, just like any other content asset. Requires PHP 7.4+ and WordPress 5.7+.
+Create, manage, and validate your ads.txt and app-ads.txt from within WordPress, like any other content asset. Requires PHP 7.4+ and WordPress 5.7+.
 
 === What is ads.txt? ===
 
@@ -24,7 +19,7 @@ Ads.txt is an initiative by the Interactive Advertising Bureau to enable publish
 === Technical Notes ===
 
 * Requires PHP 7.4+.
-* Requires WordPress 5.7+.
+* Requires WordPress 6.3+.
 * Ad blockers may break syntax highlighting and pre-save error checking on the edit screen.
 * Rewrites need to be enabled. Without rewrites, WordPress cannot know to supply `/ads.txt` when requested.
 * Your site URL must not contain a path (e.g. `https://example.com/site/` or path-based multisite installs). While the plugin will appear to function in the admin, it will not display the contents at `https://example.com/site/ads.txt`. This is because the plugin follows the IAB spec, which requires that the ads.txt file be located at the root of a domain or subdomain.
@@ -54,6 +49,12 @@ Note: If you already have an existing ads.txt or app-ads.txt file in the web roo
 You will need to rename or remove the existing (app-)ads.txt file (keeping a copy of the records it contains to put into the new settings screen) before you will be able to see any changes you make to (app-)ads.txt inside the WordPress admin.
 
 == Changelog ==
+
+= 1.4.4 - 2024-06-26 =
+* **Added:** Placeholder record can be added with no authorized sellers or buyers (props [@ankitrox](https://github.com/ankitrox), [@peterwilsoncc](https://github.com/peterwilsoncc) via [#129](https://github.com/10up/ads-txt/pull/129)).
+* **Changed:** Bump WordPress "tested up to" version 6.5 (props [@zamanq](https://github.com/zamanq), [@QAharshalkadu](https://github.com/QAharshalkadu), [@jeffpaul](https://github.com/jeffpaul), [@qasumitbagthariya](https://github.com/qasumitbagthariya), [@sudip-md](https://github.com/sudip-md) via [#152](https://github.com/10up/ads-txt/pull/152), [#156](https://github.com/10up/ads-txt/pull/156), [#162](https://github.com/10up/ads-txt/issues/162)).
+* **Fixed:** Better error handling for environments that don't match our minimum PHP version (props [@dkotter](https://github.com/dkotter), [@rahulsprajapati](https://github.com/rahulsprajapati), [@peterwilsoncc](https://github.com/peterwilsoncc), [@frankiebordone](https://github.com/frankiebordone), [@vikrampm1](https://github.com/vikrampm1) via [#149](https://github.com/10up/ads-txt/pull/149)).
+* **Security:** Bump `semver` from 7.3.5 to 7.5.3 (props [@dependabot](https://github.com/apps/dependabot), [@peterwilsoncc](https://github.com/peterwilsoncc) via [#147](https://github.com/10up/ads-txt/pull/147)).
 
 = 1.4.3 - 2023-06-21 =
 * **Added:** `ads.txt` file exists check from the backend (props [@sksaju](https://github.com/sksaju), [@peterwilsoncc](https://github.com/peterwilsoncc), [@mmcachran](https://github.com/mmcachran), [@dinhtungdu](https://github.com/dinhtungdu), [@helen](https://github.com/helen), [@jeffpaul](https://github.com/jeffpaul) via [#131](https://github.com/10up/ads-txt/pull/131)).

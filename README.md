@@ -1,6 +1,6 @@
 # Ads.txt Manager for WordPress
 
-> Create, manage, and validate your ads.txt and app-ads.txt from within WordPress, just like any other content asset.
+> Create, manage, and validate your ads.txt and app-ads.txt from within WordPress, like any other content asset.
 
 [![Support Level](https://img.shields.io/badge/support-stable-blue.svg)](#support-level) [![Automated Tests](https://github.com/10up/ads-txt/workflows/Automated%20Tests/badge.svg)](https://github.com/10up/ads-txt/actions?query=workflow%3A%22Automated+Tests%22) [![Release Version](https://img.shields.io/github/tag/10up/ads-txt.svg?label=release)](https://github.com/10up/ads-txt/releases/latest) ![WordPress tested up to version](https://img.shields.io/wordpress/plugin/tested/ads-txt?label=WordPress) [![GPLv2 License](https://img.shields.io/github/license/10up/ads-txt.svg)](https://github.com/10up/ads-txt/blob/develop/LICENSE.md)
 
@@ -21,7 +21,7 @@ Yes! However, if you are using a subfolder installation it will only work for th
 ## Requirements
 
 * Requires PHP 7.4+.
-* Requires WordPress 5.7+.
+* Requires WordPress 6.3+.
 * Ad blockers may break syntax highlighting and pre-save error checking on the edit screen. See [#20](https://github.com/10up/ads-txt/issues/20).
 * Rewrites need to be enabled. Without rewrites, WordPress cannot know to supply `/ads.txt` when requested.
 * Your site URL must not contain a path (e.g. `https://example.com/site/` or path-based multisite installs). While the plugin will appear to function in the admin, it will not display the contents at `https://example.com/site/ads.txt`. This is because the plugin follows the IAB spec, which requires that the ads.txt file be located at the root of a domain or subdomain.

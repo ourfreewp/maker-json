@@ -1,6 +1,8 @@
 {
     "name": "10up/ads-txt",
     "description": "Create, manage, and validate your ads.txt from within WordPress, just like any other content asset.",
+    "homepage": "https://github.com/10up/ads-txt",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "10up",
@@ -25,7 +27,6 @@
         "10up/wp_mock": "^0.5.0",
         "phpunit/phpunit": "^9.5"
     },
-    "license": "GPLv2 or later",
     "config": {
         "allow-plugins": {
             "dealerdirect/phpcodesniffer-composer-installer": true

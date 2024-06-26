@@ -4,6 +4,30 @@ All notable changes to this project will be documented in this file, per [the Ke
 
 ## [Unreleased] - TBD
 
+## [1.4.4] - 2024-06-26
+### Added
+- Placeholder record can be added with no authorized sellers or buyers (props [@ankitrox](https://github.com/ankitrox), [@peterwilsoncc](https://github.com/peterwilsoncc) via [#129](https://github.com/10up/ads-txt/pull/129)).
+
+### Changed
+- Bump WordPress "tested up to" version 6.5 (props [@zamanq](https://github.com/zamanq), [@QAharshalkadu](https://github.com/QAharshalkadu), [@jeffpaul](https://github.com/jeffpaul), [@qasumitbagthariya](https://github.com/qasumitbagthariya), [@sudip-md](https://github.com/sudip-md) via [#152](https://github.com/10up/ads-txt/pull/152), [#156](https://github.com/10up/ads-txt/pull/156), [#162](https://github.com/10up/ads-txt/issues/162)).
+
+### Fixed
+- Better error handling for environments that don't match our minimum PHP version (props [@dkotter](https://github.com/dkotter), [@rahulsprajapati](https://github.com/rahulsprajapati), [@peterwilsoncc](https://github.com/peterwilsoncc), [@frankiebordone](https://github.com/frankiebordone), [@vikrampm1](https://github.com/vikrampm1) via [#149](https://github.com/10up/ads-txt/pull/149)).
+
+### Security
+- Bump `semver` from 7.3.5 to 7.5.3 (props [@dependabot](https://github.com/apps/dependabot), [@peterwilsoncc](https://github.com/peterwilsoncc) via [#147](https://github.com/10up/ads-txt/pull/147)).
+
+### Developer
+- Added Repo Automator GitHub Action (props [@iamdharmesh](https://github.com/iamdharmesh) via [#167](https://github.com/10up/ads-txt/pull/167)).
+- Added a "Testing" section in the `CONTRIBUTING.md` file (props [@kmgalanakis](https://github.com/kmgalanakis), [@jeffpaul](https://github.com/jeffpaul) via [#166](https://github.com/10up/ads-txt/pull/166)).
+- Cleaned up NPM dependencies and update node to v20 (props [@Sidsector9](https://github.com/Sidsector9), [@dkotter](https://github.com/dkotter) via [#161](https://github.com/10up/ads-txt/pull/161)).
+- Updated the `skaut/wordpress-version-checker` to check WordPress "tested up to" during the Release Candidate phase (props [@jeffpaul](https://github.com/jeffpaul), [@iamdharmesh](https://github.com/iamdharmesh) via [#145](https://github.com/10up/ads-txt/pull/145)).
+- Upgraded the `download-artifact` from v3 to v4 (props [@iamdharmesh](https://github.com/iamdharmesh) via [#163](https://github.com/10up/ads-txt/pull/163)).
+- Replaced `lee-dohm/no-response` with `actions/stale` to help with closing no-response/stale issues (props [@jeffpaul](https://github.com/jeffpaul) via [#164](https://github.com/10up/ads-txt/pull/164)).
+- Bumped `Cypress` version from 11.2.0 to 13.2.0 (props [@iamdharmesh](https://github.com/iamdharmesh), [@peterwilsoncc](https://github.com/peterwilsoncc) via [#154](https://github.com/10up/ads-txt/pull/154)).
+- Bumped `@wordpress/env` version from 5.7.0 to 8.7.0 (props [@iamdharmesh](https://github.com/iamdharmesh), [@peterwilsoncc](https://github.com/peterwilsoncc) via [#154](https://github.com/10up/ads-txt/pull/154)).
+- Bumped `cypress-mochawesome-reporter` version 3.4.0 to 3.6.0 (props [@iamdharmesh](https://github.com/iamdharmesh), [@peterwilsoncc](https://github.com/peterwilsoncc) via [#154](https://github.com/10up/ads-txt/pull/154)).
+
 ## [1.4.3] - 2023-06-21
 ### Added
 - `ads.txt` file exists check from the backend (props [@sksaju](https://github.com/sksaju), [@peterwilsoncc](https://github.com/peterwilsoncc), [@mmcachran](https://github.com/mmcachran), [@dinhtungdu](https://github.com/dinhtungdu), [@helen](https://github.com/helen), [@jeffpaul](https://github.com/jeffpaul) via [#131](https://github.com/10up/ads-txt/pull/131)).
@@ -102,6 +126,7 @@ All notable changes to this project will be documented in this file, per [the Ke
 - Initial plugin release
 
 [Unreleased]: https://github.com/10up/ads-txt/compare/trunk...develop
+[1.4.4]: https://github.com/10up/ads-txt/compare/1.4.3...1.4.4
 [1.4.3]: https://github.com/10up/ads-txt/compare/1.4.2...1.4.3
 [1.4.2]: https://github.com/10up/ads-txt/compare/1.4.1...1.4.2
 [1.4.1]: https://github.com/10up/ads-txt/compare/1.4.0...1.4.1
