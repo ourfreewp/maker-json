@@ -50,6 +50,11 @@ You will need to rename or remove the existing (app-)ads.txt file (keeping a cop
 
 == Changelog ==
 
+= 1.4.5 - 2024-09-26 =
+* **Changed:** Bump WordPress "tested up to" version 6.6 (props [@ankitguptaindia](https://github.com/ankitguptaindia), [@jeffpaul](https://github.com/jeffpaul), [@sudip-md](https://github.com/sudip-md) via [#172](https://github.com/10up/ads-txt/pull/172), [#173](https://github.com/10up/ads-txt/pull/173)).
+* **Changed:** Bump WordPress minimum supported version from 6.3 to 6.4 (props [@ankitguptaindia](https://github.com/ankitguptaindia), [@jeffpaul](https://github.com/jeffpaul), [@sudip-md](https://github.com/sudip-md) via [#172](https://github.com/10up/ads-txt/pull/172), [#173](https://github.com/10up/ads-txt/pull/173)).
+* **Security:** Bump `braces` from 3.0.2 to 3.0.3 (props [@dependabot](https://github.com/apps/dependabot), [@iamdharmesh](https://github.com/iamdharmesh) via [#168](https://github.com/10up/ads-txt/pull/168)).
+
 = 1.4.4 - 2024-06-26 =
 * **Added:** Placeholder record can be added with no authorized sellers or buyers (props [@ankitrox](https://github.com/ankitrox), [@peterwilsoncc](https://github.com/peterwilsoncc) via [#129](https://github.com/10up/ads-txt/pull/129)).
 * **Changed:** Bump WordPress "tested up to" version 6.5 (props [@zamanq](https://github.com/zamanq), [@QAharshalkadu](https://github.com/QAharshalkadu), [@jeffpaul](https://github.com/jeffpaul), [@qasumitbagthariya](https://github.com/qasumitbagthariya), [@sudip-md](https://github.com/sudip-md) via [#152](https://github.com/10up/ads-txt/pull/152), [#156](https://github.com/10up/ads-txt/pull/156), [#162](https://github.com/10up/ads-txt/issues/162)).
