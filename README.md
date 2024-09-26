@@ -1,8 +1,12 @@
 # Ads.txt Manager for WordPress
 
-> Create, manage, and validate your ads.txt and app-ads.txt from within WordPress, like any other content asset.
+![Ads.txt Manager for WordPress](https://github.com/10up/ads-txt/blob/develop/.wordpress-org/banner-1544x500.png)
 
-[![Support Level](https://img.shields.io/badge/support-stable-blue.svg)](#support-level) [![Automated Tests](https://github.com/10up/ads-txt/workflows/Automated%20Tests/badge.svg)](https://github.com/10up/ads-txt/actions?query=workflow%3A%22Automated+Tests%22) [![Release Version](https://img.shields.io/github/tag/10up/ads-txt.svg?label=release)](https://github.com/10up/ads-txt/releases/latest) ![WordPress tested up to version](https://img.shields.io/wordpress/plugin/tested/ads-txt?label=WordPress) [![GPLv2 License](https://img.shields.io/github/license/10up/ads-txt.svg)](https://github.com/10up/ads-txt/blob/develop/LICENSE.md)
+[![Support Level](https://img.shields.io/badge/support-stable-blue.svg)](#support-level) ![WordPress tested up to version](https://img.shields.io/wordpress/plugin/tested/ads-txt?label=WordPress) [![GPLv2 License](https://img.shields.io/github/license/10up/ads-txt.svg)](https://github.com/10up/ads-txt/blob/develop/LICENSE.md) [![Dependency Review](https://github.com/10up/ads-txt/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/10up/ads-txt/actions/workflows/dependency-review.yml) [![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/ads-txt?logo=wordpress&logoColor=FFFFFF&label=Playground%20Demo&labelColor=3858E9&color=3858E9)](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/10up/ads-txt/develop/.wordpress-org/blueprints/blueprint.json)
+
+[![End-to-end Tests](https://github.com/10up/ads-txt/actions/workflows/cypress.yml/badge.svg)](https://github.com/10up/ads-txt/actions/workflows/cypress.yml) [![Unit Tests](https://github.com/10up/ads-txt/actions/workflows/phpunit.yml/badge.svg)](https://github.com/10up/ads-txt/actions/workflows/phpunit.yml) [![Lint PHP](https://github.com/10up/ads-txt/actions/workflows/lint-php.yml/badge.svg)](https://github.com/10up/ads-txt/actions/workflows/lint-php.yml) [![PHP Compatibility](https://github.com/10up/ads-txt/actions/workflows/php8-compatibility.yml/badge.svg)](https://github.com/10up/ads-txt/actions/workflows/php8-compatibility.yml) [![CodeQL](https://github.com/10up/ads-txt/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/10up/ads-txt/actions/workflows/github-code-scanning/codeql)
+
+> Create, manage, and validate your ads.txt and app-ads.txt from within WordPress, like any other content asset.
 
 ## Features
 
@@ -21,7 +25,7 @@ Yes! However, if you are using a subfolder installation it will only work for th
 ## Requirements
 
 * Requires PHP 7.4+.
-* Requires WordPress 6.3+.
+* Requires WordPress 6.4+.
 * Ad blockers may break syntax highlighting and pre-save error checking on the edit screen. See [#20](https://github.com/10up/ads-txt/issues/20).
 * Rewrites need to be enabled. Without rewrites, WordPress cannot know to supply `/ads.txt` when requested.
 * Your site URL must not contain a path (e.g. `https://example.com/site/` or path-based multisite installs). While the plugin will appear to function in the admin, it will not display the contents at `https://example.com/site/ads.txt`. This is because the plugin follows the IAB spec, which requires that the ads.txt file be located at the root of a domain or subdomain.
