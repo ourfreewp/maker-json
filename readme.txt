@@ -2,7 +2,7 @@
 Contributors:      10up, helen, adamsilverstein, jakemgold, peterwilsoncc, jeffpaul
 Tags:              ads.txt, app-ads.txt, ads, ad manager, advertising
 Tested up to:      6.6
-Stable tag:        1.4.4
+Stable tag:        1.4.5
 License:           GPL-2.0-or-later
 License URI:       https://spdx.org/licenses/GPL-2.0-or-later.html
 
@@ -49,6 +49,11 @@ Note: If you already have an existing ads.txt or app-ads.txt file in the web roo
 You will need to rename or remove the existing (app-)ads.txt file (keeping a copy of the records it contains to put into the new settings screen) before you will be able to see any changes you make to (app-)ads.txt inside the WordPress admin.
 
 == Changelog ==
+
+= 1.4.5 - 2024-09-26 =
+* **Changed:** Bump WordPress "tested up to" version 6.6 (props [@ankitguptaindia](https://github.com/ankitguptaindia), [@jeffpaul](https://github.com/jeffpaul), [@sudip-md](https://github.com/sudip-md) via [#172](https://github.com/10up/ads-txt/pull/172), [#173](https://github.com/10up/ads-txt/pull/173)).
+* **Changed:** Bump WordPress minimum supported version from 6.3 to 6.4 (props [@ankitguptaindia](https://github.com/ankitguptaindia), [@jeffpaul](https://github.com/jeffpaul), [@sudip-md](https://github.com/sudip-md) via [#172](https://github.com/10up/ads-txt/pull/172), [#173](https://github.com/10up/ads-txt/pull/173)).
+* **Security:** Bump `braces` from 3.0.2 to 3.0.3 (props [@dependabot](https://github.com/apps/dependabot), [@iamdharmesh](https://github.com/iamdharmesh) via [#168](https://github.com/10up/ads-txt/pull/168)).
 
 = 1.4.4 - 2024-06-26 =
 * **Added:** Placeholder record can be added with no authorized sellers or buyers (props [@ankitrox](https://github.com/ankitrox), [@peterwilsoncc](https://github.com/peterwilsoncc) via [#129](https://github.com/10up/ads-txt/pull/129)).

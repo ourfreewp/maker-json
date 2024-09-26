@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file, per [the Ke
 
 ## [Unreleased] - TBD
 
+## [1.4.5] - 2024-09-26
+**Note that this release bumps the WordPress minimum version from 6.3 to 6.4.**
+
+### Changed
+- Bump WordPress "tested up to" version 6.6 (props [@ankitguptaindia](https://github.com/ankitguptaindia), [@jeffpaul](https://github.com/jeffpaul), [@sudip-md](https://github.com/sudip-md) via [#172](https://github.com/10up/ads-txt/pull/172), [#173](https://github.com/10up/ads-txt/pull/173)).
+- Bump WordPress minimum supported version from 6.3 to 6.4 (props [@ankitguptaindia](https://github.com/ankitguptaindia), [@jeffpaul](https://github.com/jeffpaul), [@sudip-md](https://github.com/sudip-md) via [#172](https://github.com/10up/ads-txt/pull/172), [#173](https://github.com/10up/ads-txt/pull/173)).
+
+### Security
+- Bump `braces` from 3.0.2 to 3.0.3 (props [@dependabot](https://github.com/apps/dependabot), [@iamdharmesh](https://github.com/iamdharmesh) via [#168](https://github.com/10up/ads-txt/pull/168)).
+
+### Developer
+- Update repo badges, add WordPress Playground badge (props [@jeffpaul](https://github.com/jeffpaul), [@dkotter](https://github.com/dkotter) via [#175](https://github.com/10up/ads-txt/pull/175)).
+- Add the plugin banner image to the `README.md` file (props [@jeffpaul](https://github.com/jeffpaul), [@dkotter](https://github.com/dkotter) via [#176](https://github.com/10up/ads-txt/pull/176)).
+
 ## [1.4.4] - 2024-06-26
 ### Added
 - Placeholder record can be added with no authorized sellers or buyers (props [@ankitrox](https://github.com/ankitrox), [@peterwilsoncc](https://github.com/peterwilsoncc) via [#129](https://github.com/10up/ads-txt/pull/129)).
@@ -126,6 +140,7 @@ All notable changes to this project will be documented in this file, per [the Ke
 - Initial plugin release
 
 [Unreleased]: https://github.com/10up/ads-txt/compare/trunk...develop
+[1.4.5]: https://github.com/10up/ads-txt/compare/1.4.4...1.4.5
 [1.4.4]: https://github.com/10up/ads-txt/compare/1.4.3...1.4.4
 [1.4.3]: https://github.com/10up/ads-txt/compare/1.4.2...1.4.3
 [1.4.2]: https://github.com/10up/ads-txt/compare/1.4.1...1.4.2
