@@ -439,7 +439,7 @@ function display_formatted_error( $error ) {
 	$messages = get_error_messages();
 
 	if ( ! isset( $messages[ $error['type'] ] ) ) {
-		return __( 'Unknown error', 'adstxt' );
+		return __( 'Unknown error', 'ads-txt' );
 	}
 
 	if ( ! isset( $error['value'] ) ) {
