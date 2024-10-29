@@ -463,8 +463,8 @@ function display_formatted_error( $error ) {
  */
 function get_error_messages() {
 	$messages = array(
-		'invalid_variable'     => __( 'Unrecognized variable' ),
-		'invalid_record'       => __( 'Invalid record' ),
+		'invalid_variable'     => __( 'Unrecognized variable', 'ads-txt' ),
+		'invalid_record'       => __( 'Invalid record', 'ads-txt' ),
 		'invalid_account_type' => __( 'Third field should be RESELLER or DIRECT' ),
 		/* translators: %s: Subdomain */
 		'invalid_subdomain'    => __( '%s does not appear to be a valid subdomain' ),
