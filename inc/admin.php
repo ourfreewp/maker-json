@@ -465,9 +465,9 @@ function get_error_messages() {
 	$messages = array(
 		'invalid_variable'     => __( 'Unrecognized variable', 'ads-txt' ),
 		'invalid_record'       => __( 'Invalid record', 'ads-txt' ),
-		'invalid_account_type' => __( 'Third field should be RESELLER or DIRECT' ),
+		'invalid_account_type' => __( 'Third field should be RESELLER or DIRECT', 'ads-txt' ),
 		/* translators: %s: Subdomain */
-		'invalid_subdomain'    => __( '%s does not appear to be a valid subdomain' ),
+		'invalid_subdomain'    => __( '%s does not appear to be a valid subdomain', 'ads-txt' ),
 		/* translators: %s: Exchange domain */
 		'invalid_exchange'     => __( '%s does not appear to be a valid exchange domain' ),
 		/* translators: %s: Alphanumeric TAG-ID */
