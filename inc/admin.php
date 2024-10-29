@@ -439,7 +439,7 @@ function display_formatted_error( $error ) {
 	$messages = get_error_messages();
 
 	if ( ! isset( $messages[ $error['type'] ] ) ) {
-		return __( 'Unknown error', 'adstxt' );
+		return __( 'Unknown error', 'ads-txt' );
 	}
 
 	if ( ! isset( $error['value'] ) ) {
@@ -463,15 +463,15 @@ function display_formatted_error( $error ) {
  */
 function get_error_messages() {
 	$messages = array(
-		'invalid_variable'     => __( 'Unrecognized variable' ),
-		'invalid_record'       => __( 'Invalid record' ),
-		'invalid_account_type' => __( 'Third field should be RESELLER or DIRECT' ),
+		'invalid_variable'     => __( 'Unrecognized variable', 'ads-txt' ),
+		'invalid_record'       => __( 'Invalid record', 'ads-txt' ),
+		'invalid_account_type' => __( 'Third field should be RESELLER or DIRECT', 'ads-txt' ),
 		/* translators: %s: Subdomain */
-		'invalid_subdomain'    => __( '%s does not appear to be a valid subdomain' ),
+		'invalid_subdomain'    => __( '%s does not appear to be a valid subdomain', 'ads-txt' ),
 		/* translators: %s: Exchange domain */
-		'invalid_exchange'     => __( '%s does not appear to be a valid exchange domain' ),
+		'invalid_exchange'     => __( '%s does not appear to be a valid exchange domain', 'ads-txt' ),
 		/* translators: %s: Alphanumeric TAG-ID */
-		'invalid_tagid'        => __( '%s does not appear to be a valid TAG-ID' ),
+		'invalid_tagid'        => __( '%s does not appear to be a valid TAG-ID', 'ads-txt' ),
 	);
 
 	return $messages;
