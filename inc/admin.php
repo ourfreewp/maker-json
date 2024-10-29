@@ -469,9 +469,9 @@ function get_error_messages() {
 		/* translators: %s: Subdomain */
 		'invalid_subdomain'    => __( '%s does not appear to be a valid subdomain', 'ads-txt' ),
 		/* translators: %s: Exchange domain */
-		'invalid_exchange'     => __( '%s does not appear to be a valid exchange domain' ),
+		'invalid_exchange'     => __( '%s does not appear to be a valid exchange domain', 'ads-txt' ),
 		/* translators: %s: Alphanumeric TAG-ID */
-		'invalid_tagid'        => __( '%s does not appear to be a valid TAG-ID' ),
+		'invalid_tagid'        => __( '%s does not appear to be a valid TAG-ID', 'ads-txt' ),
 	);
 
 	return $messages;
