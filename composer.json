@@ -1,7 +1,7 @@
 {
-    "name": "10up/ads-txt",
-    "description": "Create, manage, and validate your ads.txt from within WordPress, just like any other content asset.",
-    "homepage": "https://github.com/10up/ads-txt",
+    "name": "OurFreeWP/maker-json",
+    "description": "Create, manage, and validate your maker.json from within WordPress, just like any other content asset.",
+    "homepage": "https://github.com/ourfreewp/maker-json",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
