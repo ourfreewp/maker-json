@@ -1,14 +1,14 @@
 <?php
 /**
- * Post Type functionality for Ads.txt.
+ * Post Type functionality for Maker.json.
  *
- * @package Ads_Txt_Manager
+ * @package Maker_Json_Manager
  */
 
-namespace Adstxt;
+namespace MakerJson;
 
 /**
- * Register the `adstxt` custom post type.
+ * Register the `makerjson` custom post type.
  *
  * @return void
  */
@@ -41,25 +41,12 @@ function register() {
 	);
 
 	register_post_type(
-		'adstxt',
+		'makerjson',
 		array_merge(
 			array(
 				'labels' => array(
-					'name'          => esc_html_x( 'Ads.txt', 'post type general name', 'ads-txt' ),
-					'singular_name' => esc_html_x( 'Ads.txt', 'post type singular name', 'ads-txt' ),
-				),
-			),
-			$args
-		)
-	);
-
-	register_post_type(
-		'app-adstxt',
-		array_merge(
-			array(
-				'labels' => array(
-					'name'          => esc_html_x( 'App-ads.txt', 'post type general name', 'ads-txt' ),
-					'singular_name' => esc_html_x( 'App-ads.txt', 'post type singular name', 'ads-txt' ),
+					'name'          => esc_html_x( 'Maker.json', 'post type general name', 'maker-json' ),
+					'singular_name' => esc_html_x( 'Maker.json', 'post type singular name', 'maker-json' ),
 				),
 			),
 			$args
