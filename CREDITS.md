@@ -4,8 +4,6 @@ The following acknowledges the Maintainers for this repository, those who have C
 
 The following individuals are responsible for curating the list of issues, responding to pull requests, and ensuring regular releases happen.
 
-[Jeffrey Paul (@jeffpaul)](https://github.com/jeffpaul) and [Peter Wilson (@peterwilsoncc)](https://github.com/peterwilsoncc).
-
 ## Contributors
 
 Thank you to all the people who have already contributed to this repository via bug reports, code, design, ideas, project management, translation, testing, etc.
